@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+#page1{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.922);
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 3.4vw;
+    padding: 0 30px;
+}
+#nav-part2{
+    display: flex;
+    align-items: center;
+    gap: 2.9vw;
+    /* gap: 50px; */
+}
+
+#nav h3{
+    font-size: 1.8vw;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+#main h1{
+    /* font-size: 160px; */
+    font-size: 10.2vw;
+    text-transform: uppercase;
+    font-weight: 400;
+    /* line-height: 125px; */
+    line-height: 7.6vw;
+    /* background-color: red; */
+    width: 70%;
+    margin-left: 18%;
+    position: relative;
+    z-index: 9;
+}
+
+#main h1:nth-child(2){
+    margin-top: 250px;
+}
+#main h1:nth-child(3){
+    text-align: end;
+    margin-left: 90px;
+}
+#main h1:nth-child(4){
+    text-align: end;
+    margin-left: 1px;
+}
+
+img{
+    height: 480px;
+    position: absolute;
+    top: 9%;
+    left: 46%;
+}
+#img1{
+    rotate: 20deg;
+}
+#img2{
+    rotate: 10deg;
+}
+
+#footer{
+    font-size: 1vw;
+    font-weight: 300;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 5%;
+    left: 40%;
+}
+#footer h3:nth-child(1){
+    text-align: center;
+}
+
+/* #page1{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.922);
+} */
+
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.922);
+}
+#page2 img{
+    height: 100%;
+    width: 30%;
+    object-fit: cover;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#page3 {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.922);
+    
+}
+
+#page3 h1{
+    font-size: 45vw;
+    font-weight: 600;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+    #nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 8vw;
+        padding: 0 20px;
+        /* background-color: red; */
+    }
+
+    #nav-part2{
+        display: flex;
+        align-items: center;
+        gap: 3vw;
+        /* gap: 50px; */
+    }
+    
+    #nav h3{
+        font-size: 2.8vw;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+
+    #main h1{
+        /* font-size: 160px; */
+        font-size: 13.9vw;
+        text-transform: uppercase;
+        font-weight: 400;
+        /* line-height: 125px; */
+        line-height: 12vw;
+        /* background-color: red; */
+        width: 70%;
+        margin-left: 18%;
+        position: relative;
+        z-index: 9;
+    }
+    
+    #main h1:nth-child(2){
+        margin-top: 250px;
+    }
+    #main h1:nth-child(3){
+        text-align: end;
+        margin-left: 90px;
+    }
+    #main h1:nth-child(4){
+        text-align: end;
+        margin-left: 1px;
+    }
+
+    img{
+        height: 480px;
+        position: absolute;
+        top: 12%;
+        left: 18%;
+    }
+    #img1{
+        rotate: 20deg;
+    }
+    #img2{
+        rotate: 10deg;
+    }
+
+    #footer{
+        font-size: 2.7vw;
+        font-weight: 300;
+        text-transform: uppercase;
+        position: absolute;
+        bottom: 3%;
+        left: 24%;
+    }
+    #footer h3:nth-child(1){
+        text-align: center;
+    }
+
+    #page2 img{
+        height: 80%;
+        width: 100%;
+        object-fit: cover;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #page3 {
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.922);
+        
+    }
+    
+    #page3 h1{
+        font-size: 8.6vw;
+        font-weight: 600;
+        text-transform: uppercase;
+        white-space: nowrap;
+        /* overflow-x: hidden; */
+        overflow-y: hidden;
+    }
+    
+}
