@@ -136,7 +136,6 @@ function triggerCelebration() {
     
     createSparkles();
     
-    // Add celebration sound effect (visual feedback)
     const btn = document.querySelector('.celebrate-btn');
     btn.style.transform = 'scale(0.95)';
     setTimeout(() => {
